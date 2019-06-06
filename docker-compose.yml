@@ -1,0 +1,22 @@
+services:
+  appserver:
+    image: 'devwithlando/php:7.2-apache-2'
+    environment:
+      COMPOSER_ALLOW_SUPERUSER: 1
+      PHP_MEMORY_LIMIT: 1G
+      PATH: >-
+        /app/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/www/.composer/vendor/bin
+      LANDO_WEBROOT: /app/docroot
+      XDEBUG_CONFIG: remote_enable=true remote_host=host.docker.internal
+    networks:
+      default: {}
+    ports:
+      - '80'
+    volumes:
+      - /usr/local/bin
+      - >-
+        /Users/pavithra.raman/.lando/config/php/default-ssl.conf:/etc/apache2/sites-enabled/000-default.conf
+      - >-
+        /Users/pavithra.raman/.lando/config/php/php.ini:/usr/local/etc/php/conf.d/xxx-lando-default.ini
+    command: docker-php-entrypoint sh -c 'a2enmod rewrite && apache2-foreground'
+version: '3.6'

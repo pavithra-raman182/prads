@@ -1,7 +1,7 @@
 project:
   machine_name: prads1
   prefix: BLT
-  human_name: 'BLTed 10'
+  human_name: BLTed 10
   profile:
     name: lightning
   local:
@@ -9,7 +9,7 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes: {}
 deploy:
   tag_source: true
 drush:
@@ -23,14 +23,16 @@ modules:
     enable: [dblog, devel, seckit, views_ui]
     uninstall: [acquia_connector, shield]
   ci:
-    enable: {  }
+    enable: {}
     uninstall: [acquia_connector, shield]
   dev:
     enable: [acquia_connector, shield]
-    uninstall: {  }
+    uninstall: {}
   test:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cloud:
+  appId: 67a7b4b5-27bf-4a3f-badc-0901d75fc20b

@@ -1,0 +1,6 @@
+project:
+  machine_name: landolightning
+  prefix: BLT
+  human_name: 'prads1'
+  profile:
+    name: lightning

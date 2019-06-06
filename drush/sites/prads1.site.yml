@@ -1,0 +1,9 @@
+local:
+  docker:
+    service: appserver
+    exec:
+      options: --user www-data
+  uri: http://prads1.lndo.site
+  root: /app
+  paths:
+    drush-script: /app/vendor/bin/drush

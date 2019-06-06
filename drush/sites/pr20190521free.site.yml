@@ -1,0 +1,26 @@
+dev:
+  root: /var/www/html/pr20190521free.dev/docroot
+  ac-site: pr20190521free
+  ac-env: dev
+  ac-realm: devcloud
+  uri: pr20190521freesckgy5jd4o.devcloud.acquia-sites.com
+  dev.livedev:
+    parent: '@pr20190521free.dev'
+    root: /mnt/gfs/pr20190521free.dev/livedev/docroot
+  host: pr20190521freesckgy5jd4o.ssh.devcloud.acquia-sites.com
+  user: pr20190521free.dev
+  paths:
+    drush-script: drush9
+test:
+  root: /var/www/html/pr20190521free.test/docroot
+  ac-site: pr20190521free
+  ac-env: test
+  ac-realm: devcloud
+  uri: pr20190521freeejgkwkgy74.devcloud.acquia-sites.com
+  test.livedev:
+    parent: '@pr20190521free.test'
+    root: /mnt/gfs/pr20190521free.test/livedev/docroot
+  host: pr20190521freeejgkwkgy74.ssh.devcloud.acquia-sites.com
+  user: pr20190521free.test
+  paths:
+    drush-script: drush9
