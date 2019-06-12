@@ -1,0 +1,7 @@
+prads_tracker.content:
+  path: '/prads_tracker'
+  defaults:
+    _controller: '\Drupal\prads_tracker\Controller\PradsController::content'
+    _title: 'PRADS Tracker'
+  requirements:
+    _permission: 'access content'

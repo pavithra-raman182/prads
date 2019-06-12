@@ -1,0 +1,33 @@
+uuid: 2e73ffed-9573-46bf-8462-f381f692534a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_quantity
+field_name: field_quantity
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: '1'
+    -
+      value: 2
+      label: '2'
+    -
+      value: 3
+      label: '3'
+    -
+      value: 4
+      label: '4'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

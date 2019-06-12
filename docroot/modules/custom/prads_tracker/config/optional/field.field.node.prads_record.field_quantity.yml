@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quantity
+    - node.type.prads_record
+  module:
+    - options
+id: node.prads_record.field_quantity
+field_name: field_quantity
+entity_type: node
+bundle: prads_record
+label: Quantity
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

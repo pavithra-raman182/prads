@@ -1,0 +1,8 @@
+name: prads1
+recipe: drupal8
+config:
+  webroot: docroot
+tooling:
+  blt:
+    service: appserver
+    cmd: /usr/bin/blt

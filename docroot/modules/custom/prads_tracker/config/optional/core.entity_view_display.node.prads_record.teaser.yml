@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.prads_record.field_activity
+    - field.field.node.prads_record.field_quantity
+    - node.type.prads_record
+  module:
+    - options
+    - panelizer
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.prads_record.teaser
+targetEntityType: node
+bundle: prads_record
+mode: teaser
+content:
+  field_activity:
+    type: list_default
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_quantity: true
+  links: true

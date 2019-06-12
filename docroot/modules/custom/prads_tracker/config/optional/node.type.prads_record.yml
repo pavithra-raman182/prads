@@ -1,0 +1,17 @@
+uuid: 67df3859-919e-4ff8-b8fc-51d8be6c2bb1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'PRADS Record'
+type: prads_record
+description: 'Records for PRADS tracker'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_activity
+    - node.type.prads_record
+  module:
+    - options
+id: node.prads_record.field_activity
+field_name: field_activity
+entity_type: node
+bundle: prads_record
+label: Activity
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
