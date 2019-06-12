@@ -18,7 +18,7 @@ class PradsController extends ControllerBase {
   public function content() {
     return [
       '#type' => 'markup',
-      '#markup' => '<h1>' . $this->t(' Prads tracker results for : ') . date('Y:m:d', time()) . '</h1>',
+      '#markup' => '<h1>' . $this->t('Prads tracker results for :') . date('Y:m:d', time()) . '</h1>',
     ];
   }
 
