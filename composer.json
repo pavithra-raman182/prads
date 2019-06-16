@@ -41,6 +41,7 @@
         "drupal/cog": "^1.0.0",
         "drupal/config_split": "^1.0.0",
         "drupal/core": "^8.6.0",
+        "drupal/csv_importer": "^1.4",
         "drupal/devel": "^2.0.0",
         "drupal/examples": "1.x-dev",
         "drupal/features": "^3.8.0",

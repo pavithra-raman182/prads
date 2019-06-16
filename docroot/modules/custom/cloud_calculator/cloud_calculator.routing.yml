@@ -1,0 +1,14 @@
+cloud_calculator.form:
+  path: '/cloud_calculator'
+  defaults:
+    _form: 'Drupal\cloud_calculator\Form\CloudCalculatorForm'
+    _title: 'Cloud Sizing'
+  requirements:
+    _permission: 'use cloud calculator'
+cloud_calculator.results:
+  path: '/cloud_calculator_results'
+  defaults:
+    _controller: 'Drupal\cloud_calculator\Controller\CloudCalculatorController::content'
+    _title: 'Cloud Capacity Calcuator'
+  requirements:
+    _permission: 'use cloud calculator'

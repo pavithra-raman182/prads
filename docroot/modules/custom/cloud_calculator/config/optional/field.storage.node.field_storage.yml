@@ -1,0 +1,27 @@
+uuid: bef86da2-e176-4fc8-974e-3c54cfedb945
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_storage
+field_name: field_storage
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: EBS-only
+      label: EBS-only
+    -
+      value: SSD
+      label: SSD
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

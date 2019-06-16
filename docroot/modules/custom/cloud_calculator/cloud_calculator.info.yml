@@ -1,10 +1,9 @@
-name: PRAds Tracker
-description: PR Ads tracker.
+name: Cloud Calculator Module
+description: Helps calculate cloud cluster capacity.
 package: Custom
 
 type: module
 core: 8.x
-
 dependencies:
   - node
   - options

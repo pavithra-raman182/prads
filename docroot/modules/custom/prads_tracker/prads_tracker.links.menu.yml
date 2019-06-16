@@ -1,6 +1,6 @@
 prads_tracker.admin:
   title: 'PRADS Tracker settings'
   description: 'link to PRADS tracker'
-  parent: system.main
+  menu_name: main
   route_name: prads_tracker.content
   weight: 100

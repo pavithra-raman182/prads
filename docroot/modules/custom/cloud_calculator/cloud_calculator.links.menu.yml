@@ -1,0 +1,11 @@
+cloud_calculator.form:
+  title: 'Cloud Calculator'
+  description: 'Calculator for Cloud Configurations'
+  menu_name: main
+  route_name: cloud_calculator.form
+  weight: 100
+cloud_calculator.results:
+  title: 'Cloud Calculator results'
+  description: 'Calculator for Cloud Configurations'
+  route_name: cloud_calculator.results
+  weight: 100

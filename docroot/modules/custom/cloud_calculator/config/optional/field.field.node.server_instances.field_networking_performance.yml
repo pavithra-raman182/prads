@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_networking_performance
+    - node.type.server_instances
+id: node.server_instances.field_networking_performance
+field_name: field_networking_performance
+entity_type: node
+bundle: server_instances
+label: 'Networking Performance'
+description: 'in Gbps'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Up to 10'
+default_value_callback: ''
+settings: {  }
+field_type: string

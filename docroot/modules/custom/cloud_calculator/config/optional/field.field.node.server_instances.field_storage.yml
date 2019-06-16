@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_storage
+    - node.type.server_instances
+  module:
+    - options
+id: node.server_instances.field_storage
+field_name: field_storage
+entity_type: node
+bundle: server_instances
+label: Storage
+description: 'Inbuilt server storage'
+required: true
+translatable: false
+default_value:
+  -
+    value: EBS-only
+default_value_callback: ''
+settings: {  }
+field_type: list_string

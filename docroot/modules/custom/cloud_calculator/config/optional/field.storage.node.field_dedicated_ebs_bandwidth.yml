@@ -1,0 +1,21 @@
+uuid: c28c8298-8ed3-4f00-b0f0-bf5c553f1c0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_dedicated_ebs_bandwidth
+field_name: field_dedicated_ebs_bandwidth
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

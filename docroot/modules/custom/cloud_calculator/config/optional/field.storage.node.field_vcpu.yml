@@ -1,0 +1,18 @@
+uuid: f2db776d-cc12-44c6-81ba-28743382b7f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_vcpu
+field_name: field_vcpu
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

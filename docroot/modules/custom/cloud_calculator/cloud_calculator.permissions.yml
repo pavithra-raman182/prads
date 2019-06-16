@@ -1,0 +1,3 @@
+'use cloud calculator':
+  title: 'Use Cloud Calculator'
+  description: 'Gives user permission to use Cloud Calculator to size cloud clusters for Drupal applications.'
